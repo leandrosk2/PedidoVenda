@@ -14,5 +14,11 @@
 	   <redirect/>
 	  </navigation-case>
 	</navigation-rule>
+	
+	<factory>
+		<exception-handler-factory>
+			br.com.util.JsfExceptionHandlerFactory
+		</exception-handler-factory>
+	</factory>
 	 
 </faces-config>
